@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{asset('website_assets/')}}/assets/images/favicon.ico">
+{{--    <link rel="shortcut icon" type="image/x-icon" href="{{asset('website_assets/')}}/assets/images/favicon.ico">--}}
     @include('website.includes.style')
 </head>
 
@@ -35,35 +35,35 @@
         <!-- All Courses End -->
 
         <!-- Call to Action Start -->
-        @yield('callInstractor')
+{{--        @yield('callInstractor')--}}
         <!-- Call to Action End -->
 
         <!-- How It Work End -->
-        @yield('howWork')
+{{--        @yield('howWork')--}}
         <!-- How It Work End -->
 
         <!-- Download App Start -->
-        @include('website.includes.download-app')
+{{--        @include('website.includes.download-app')--}}
         <!-- Download App End -->
 
         <!-- Testimonial End -->
-        @yield('feedback')
+{{--        @yield('feedback')--}}
         <!-- Testimonial End -->
 
         <!-- Brand Logo Start -->
-        @yield('brandLogo')
+{{--        @yield('brandLogo')--}}
         <!-- Brand Logo End -->
 
         <!-- Blog Start -->
-        @yield('blogStart')
+{{--        @yield('blogStart')--}}
         <!-- Blog End -->
 
         <!-- Footer Start  -->
-        @include('website.includes.footer')
+{{--        @include('website.includes.footer')--}}
         <!-- Footer End -->
 
         <!--Back To Start-->
-        @include('website.includes.back')
+{{--        @include('website.includes.back')--}}
         <!--Back To End-->
 
     </div>

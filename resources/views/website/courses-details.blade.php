@@ -43,13 +43,6 @@
                                 <span class="Enroll">{{ $course->userCourses()->count()}} Enrolled Students</span>
                              </div>
                         </div>
-                        <div class="admin-rating">
-                            <span class="rating-count">4.9</span>
-                            <span class="rating-star">
-                                    <span class="rating-bar" style="width: 80%;"></span>
-                            </span>
-                            <span class="rating-text">(5,764 Rating)</span>
-                        </div>
                     </div>
 
                     <!-- Courses Details Tab Start -->
@@ -60,7 +53,7 @@
                             <ul class="nav justify-content-center">
                                 <li><button class="active" data-bs-toggle="tab" data-bs-target="#description">Description</button></li>
                                 {{-- <li><button data-bs-toggle="tab" data-bs-target="#instructors">Instructors</button></li> --}}
-                                <li><button data-bs-toggle="tab" data-bs-target="#reviews">Reviews</button></li>
+{{--                                <li><button data-bs-toggle="tab" data-bs-target="#reviews">Reviews</button></li>--}}
                             </ul>
                         </div>
                         <!-- Details Tab Menu End -->
@@ -424,7 +417,7 @@
 
                                 {{-- <a href="{{route('user.welcome.enroll',$course->id)}}" class="btn btn-primary btn-hover-dark">Enroll Now</a> --}}
 
-                                {{-- @endif --}} 
+                                {{-- @endif --}}
                                 @foreach (Auth::user()->userCourses as $usercourse )
                                 @if ($usercourse->course_id ==$course->id)
 

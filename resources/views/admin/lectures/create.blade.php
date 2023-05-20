@@ -74,8 +74,8 @@
                         </select>
                     </div> --}}
                     <div class="form-group">
-                        <label for="link">Lecture Link</label>
-                        <input type="url" class="form-control" name="link" id="link" placeholder="Enter Lecture Link">
+                        <label for="link">Lecture Iframe</label>
+                        <textarea class="form-control" name="link" id="link" placeholder="Enter Lecture Iframe"></textarea>
                     </div>
 
 

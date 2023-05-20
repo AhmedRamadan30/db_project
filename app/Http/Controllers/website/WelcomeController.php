@@ -4,6 +4,7 @@ namespace App\Http\Controllers\website;
 
 use App\Http\Controllers\Controller;
 use App\Models\Course;
+use App\Models\Lecture;
 use App\Models\Subject;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -75,6 +76,13 @@ class WelcomeController extends Controller{
         $course=Course::findOrFail($id);
 
         return view('website.after-enroll',compact('course'));
+    }
+
+    public function showLecture($id)
+    {
+        $lecture=Lecture::findOrFail($id);
+
+        return view('website.lecture',compact('lecture'));
     }
     public function loginForm()
     {

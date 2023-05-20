@@ -80,7 +80,7 @@
                                                         <div class="user-block">
 
                                                             <span class="username">
-                                                              <a href="{{$lecture->link}}" target="_blank" class=" primary-box-link " >{{$lecture->title}} Link</a>
+                                                              <a class=" primary-box-link " >{{$lecture->title}} Link</a>
                                                             </span>
                                                             <span class="description">Lecture Published at : {{$lecture->created_at->diffForHumans()}}</span>
 

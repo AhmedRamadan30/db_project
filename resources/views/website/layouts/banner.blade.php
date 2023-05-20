@@ -3,12 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Edule - eLearning Website Template</title>
+    <title>DB Project</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{asset('website_assets/')}}/assets/images/favicon.ico">
+{{--    <link rel="shortcut icon" type="image/x-icon" href="{{asset('website_assets/')}}/assets/images/favicon.ico">--}}
     @include('website.includes.style')
 </head>
 <body>
@@ -65,15 +65,15 @@
          @yield('content')
          <!-- Content Start End -->
                  <!-- Download App Start -->
-        @include('website.includes.download-app')
+{{--        @include('website.includes.download-app')--}}
         <!-- Download App End -->
 
          <!-- Footer Start  -->
-         @include('website.includes.footer')
+{{--         @include('website.includes.footer')--}}
          <!-- Footer End -->
 
               <!--Back To Start-->
-        @include('website.includes.back')
+{{--        @include('website.includes.back')--}}
         <!--Back To End-->
 
     </div>

@@ -17,7 +17,6 @@
                 <h4 class="sub-title">Start your favourite course</h4>
                 <h2 class="main-title">Now learning from anywhere, and build your <span>bright career.</span></h2>
                 <p>It has survived not only five centuries but also the leap into electronic typesetting.</p>
-                <a class="btn btn-primary btn-hover-dark" href="#">Start A Course</a>
             </div>
             <!-- Slider Content End -->
 
@@ -26,34 +25,10 @@
         <!-- Slider Courses Box Start -->
         <div class="slider-courses-box">
 
-            <img class="shape-1 animation-left" src="{{website_assets('assets/images/shape/shape-5.png')}}" alt="Shape">
-
-            <div class="box-content">
-                <div class="box-wrapper">
-                    <i class="flaticon-open-book"></i>
-                    <span class="count">1,235</span>
-                    <p>courses</p>
-                </div>
-            </div>
-
-            <img class="shape-2" src="{{website_assets('assets/images/shape/shape-6.png')}}" alt="Shape">
 
         </div>
         <!-- Slider Courses Box End -->
 
-        <!-- Slider Rating Box Start -->
-        <div class="slider-rating-box">
-
-            <div class="box-rating">
-                <div class="box-wrapper">
-                    <span class="count">4.8 <i class="flaticon-star"></i></span>
-                    <p>Rating (86K)</p>
-                </div>
-            </div>
-
-            <img class="shape animation-up" src="{{asset('website_assets/')}}/assets/images/shape/shape-7.png" alt="Shape">
-
-        </div>
         <!-- Slider Rating Box End -->
 
         <!-- Slider Images Start -->
@@ -146,40 +121,40 @@
 <!-- All Courses End -->
 
 <!-- Call to Action Start -->
-@section('callInstractor')
-<div class="section section-padding-02">
-    <div class="container">
+{{--@section('callInstractor')--}}
+{{--<div class="section section-padding-02">--}}
+{{--    <div class="container">--}}
 
-        <!-- Call to Action Wrapper Start -->
-        <div class="call-to-action-wrapper">
+{{--        <!-- Call to Action Wrapper Start -->--}}
+{{--        <div class="call-to-action-wrapper">--}}
 
-            <img class="cat-shape-01 animation-round" src="{{asset('website_assets/')}}/assets/images/shape/shape-12.png" alt="Shape">
-            <img class="cat-shape-02" src="{{asset('website_assets/')}}/assets/images/shape/shape-13.svg" alt="Shape">
-            <img class="cat-shape-03 animation-round" src="{{asset('website_assets/')}}/assets/images/shape/shape-12.png" alt="Shape">
+{{--            <img class="cat-shape-01 animation-round" src="{{asset('website_assets/')}}/assets/images/shape/shape-12.png" alt="Shape">--}}
+{{--            <img class="cat-shape-02" src="{{asset('website_assets/')}}/assets/images/shape/shape-13.svg" alt="Shape">--}}
+{{--            <img class="cat-shape-03 animation-round" src="{{asset('website_assets/')}}/assets/images/shape/shape-12.png" alt="Shape">--}}
 
-            <div class="row align-items-center">
-                <div class="col-md-6">
+{{--            <div class="row align-items-center">--}}
+{{--                <div class="col-md-6">--}}
 
-                    <!-- Section Title Start -->
-                    <div class="section-title shape-02">
-                        <h5 class="sub-title">Become A Instructor</h5>
-                        <h2 class="main-title">You can join with Edule as <span>a instructor?</span></h2>
-                    </div>
-                    <!-- Section Title End -->
+{{--                    <!-- Section Title Start -->--}}
+{{--                    <div class="section-title shape-02">--}}
+{{--                        <h5 class="sub-title">Become A Instructor</h5>--}}
+{{--                        <h2 class="main-title">You can join with Edule as <span>a instructor?</span></h2>--}}
+{{--                    </div>--}}
+{{--                    <!-- Section Title End -->--}}
 
-                </div>
-                <div class="col-md-6">
-                    <div class="call-to-action-btn">
-                        <a class="btn btn-primary btn-hover-dark" href="contact.html">Drop Information</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Call to Action Wrapper End -->
+{{--                </div>--}}
+{{--                <div class="col-md-6">--}}
+{{--                    <div class="call-to-action-btn">--}}
+{{--                        <a class="btn btn-primary btn-hover-dark" href="contact.html">Drop Information</a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <!-- Call to Action Wrapper End -->--}}
 
-    </div>
-</div>
-@endsection
+{{--    </div>--}}
+{{--</div>--}}
+{{--@endsection--}}
 <!-- Call to Action End -->
 
  <!-- How It Work End -->
@@ -375,14 +350,6 @@
                             </div>
                             <div class="blog-content">
                                 <div class="blog-author">
-                                    <div class="author">
-                                        <div class="author-thumb">
-                                            <a href="#"><img src="{{asset('website_assets/')}}/assets/images/author/author-01.jpg" alt="Author"></a>
-                                        </div>
-                                        <div class="author-name">
-                                            <a class="name" href="#">Jason Williams</a>
-                                        </div>
-                                    </div>
                                     <div class="tag">
                                         <a href="#">Science</a>
                                     </div>

@@ -70,12 +70,12 @@
                                                 <div class="rating-line" style="width: {{$course->userCourses()->first()->progress}}%;"></div>
                                             </div>
 
-                                            <div class="rating-meta">
-                                                <span class="rating-star">
-                                                        <span class="rating-bar" style="width: 80%;"></span>
-                                                </span>
-                                                <p>Your rating</p>
-                                            </div>
+{{--                                            <div class="rating-meta">--}}
+{{--                                                <span class="rating-star">--}}
+{{--                                                        <span class="rating-bar" style="width: 80%;"></span>--}}
+{{--                                                </span>--}}
+{{--                                                <p>Your rating</p>--}}
+{{--                                            </div>--}}
                                         </div>
                                     </div>
                                 </div>
@@ -109,14 +109,6 @@
                 <!-- Blog Sidebar Start -->
                 <div class="sidebar">
 
-                    <!-- Sidebar Widget Search Start -->
-                    <div class="sidebar-widget widget-search">
-                        <form action="#">
-                            <input type="text" placeholder="Search here">
-                            <button><i class="icofont-search-1"></i></button>
-                        </form>
-                    </div>
-                    <!-- Sidebar Widget Search End -->
 
                     <!-- Sidebar Widget Category Start -->
                     <div class="sidebar-widget">
@@ -132,10 +124,6 @@
                         @endif
                         <div class="widget-category">
                             <ul class="category-list">
-                                <li><a href="#">Public Profile </a></li>
-                                <li><a href="#">Profile</a></li>
-                                <li><a href="#">Account Security</a></li>
-                                {{-- <li><a href="#">Close Account</a></li> --}}
                                 <li ><a type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal">Close Account</a>  </li>
                             </ul>
                         </div>

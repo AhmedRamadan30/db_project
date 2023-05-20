@@ -82,8 +82,8 @@
                         </select>
                     </div> --}}
                     <div class="form-group">
-                        <label for="link">Lecture Link</label>
-                        <input type="url" class="form-control" name="link" id="link" placeholder="Enter Lecture Link" value="{{$lecture->link}}">
+                        <label for="link">Lecture Iframe</label>
+                        <input type="text" class="form-control" name="link" id="link" placeholder="Enter Lecture Iframe" value="{{$lecture->link}}">
                     </div>
 
 

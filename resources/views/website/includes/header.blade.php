@@ -12,7 +12,7 @@
 
                 <!-- Header Logo Start -->
                 <div class="header-logo">
-                    <a href="index.html"><img src="{{asset('website_assets/')}}/assets/images/logo.png" alt="Logo"></a>
+                    <a href="{{ route('user.welcome.index') }}">DB Porject</a>
                 </div>
                 <!-- Header Logo End -->
 
@@ -20,35 +20,8 @@
                 <div class="header-menu d-none d-lg-block">
                     <ul class="nav-menu">
                         <li><a href="{{route('user.welcome.index')}}">Home</a></li>
-                        <li>
-                            <a href="#">All Course</a>
-                            <ul class="sub-menu">
-                                <li><a href="courses.html">Courses</a></li>
-                                <li><a href="courses-details.html">Courses Details</a></li>
-                            </ul>
-                        </li>
 
-                        <li>
-                            <a href="#">Blog</a>
-                            <ul class="sub-menu">
-                                <li>
-                                    <a href="#">Blog</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="blog-grid.html">Blog</a></li>
-                                        <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                        <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">Blog Details</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="blog-details-left-sidebar.html">Blog Details Left Sidebar</a></li>
-                                        <li><a href="blog-details-right-sidebar.html">Blog Details Right Sidebar</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="{{ route('user.welcome.courses') }}">All Courses</a></li>
                         @php
                             $user = Auth::user();
                         @endphp

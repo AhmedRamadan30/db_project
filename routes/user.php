@@ -8,6 +8,7 @@ Route::group(['as'=>'welcome.'],function(){
     Route::get('courses',[WelcomeController::class ,'allCourses'])->name('courses');
     Route::get('course/{id}',[WelcomeController::class ,'singleCourse'])->name('singleCourse');
     Route::get('enroll/{id}',[WelcomeController::class ,'enroll'])->middleware('enrollment')->name('enroll');
+    Route::get('lecture/{id}',[WelcomeController::class ,'showLecture'])->name('lecture');
     Route::get('profile/{id}',[WelcomeController::class ,'profile'])->middleware('auth')->name('profile');
     Route::get('login',[WelcomeController::class ,'loginForm'])->name('login.form');
     Route::get('register',[WelcomeController::class ,'registerForm'])->name('register.form');

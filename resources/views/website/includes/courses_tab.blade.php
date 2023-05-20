@@ -42,12 +42,6 @@
                                     <span class="old-parice">${{$course->price}}</span>
                                 @endif
                             </div>
-                            <div class="courses-review">
-                                <span class="rating-count">4.9</span>
-                                <span class="rating-star">
-                                        <span class="rating-bar" style="width: 80%;"></span>
-                                </span>
-                            </div>
                         </div>
                     </div>
                 </div>

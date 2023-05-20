@@ -12,24 +12,13 @@
                         </div>
                         <div class="courses-content">
                             <div class="courses-author">
-                                <div class="author">
-                                    <div class="author-thumb">
-                                        <a href="#"><img src="assets/images/author/author-01.jpg" alt="Author"></a>
-                                    </div>
-                                    <div class="author-name">
-                                        <a class="name" href="#">Jason Williams</a>
-                                    </div>
-                                </div>
                                 <div class="tag">
                                     <a href="#" style="width: 112%;">{{$course->subject->name}}</a>
                                 </div>
                             </div>
 
                             <h4 class="title"><a href="{{route('user.welcome.singleCourse',$course->id)}}">{{$course->title}}</a></h4>
-                            <div class="courses-meta">
-                                <span> <i class="icofont-clock-time"></i> 08 hr 15 mins</span>
-                                <span> <i class="icofont-read-book"></i> {{ $course->lectures()->count() }} Lectures </span>
-                            </div>
+
                             <div class="courses-price-review">
                                 <div class="courses-price">
                                     @if ($course->discoun_value ==0)
@@ -39,12 +28,6 @@
                                         <span class="old-parice">${{$course->price}}</span>
                                     @endif
 
-                                </div>
-                                <div class="courses-review">
-                                    <span class="rating-count">4.9</span>
-                                    <span class="rating-star">
-                                            <span class="rating-bar" style="width: 80%;"></span>
-                                    </span>
                                 </div>
                             </div>
                         </div>
